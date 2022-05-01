@@ -5,12 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/stylesheet/output.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheet/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <title>Odin - Landingpage</title>
 </head>
 
+
 <body>
-    
+    <nav>
+    </nav>
+    <header>
+        <nav>
+            <div class="menuBtn">
+                <input type="checkbox" id="nav" class="navToggle">
+                <label for="nav"><img src="./asset/menu.svg" alt="menuicon"></label>
+                </input>
+            </div>
+            <ul class="navbar">
+                <li class="logo">NatureGallery</li>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-wrapper">
+            <div class="textHeader-wrapper">
+                <h1>Nature Gallery</h1>
+                <p>Find your favorite image with good quality</p>
+                <button>Learn more</button>
+            </div>
+            <div class="img-header-wrapper">
+                <div class="img-header">
+                </div>
+                <div class="img-header">
+                </div>
+                <div class="img-header">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <h1>Favorite images of the week</h1>
+        <div class="contentBox-wrapper">
+            <div class="contentBox">
+                <div class="imgBox">
+                    <img src="img/nature-header-1.jpg" alt="nature1" width="90%" height="auto">
+                </div>
+                <div class="contentBox-text">
+                    <h2>Awesome Mountain</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+            </div>
+            <div class="contentBox">
+                <div class="imgBox">
+                    <img src="img/nature-header-2.jpg" alt="nature1" width="90%" height="auto">
+                </div>
+                <div class="contentBox-text">
+                    <h2>Awesome Mountain</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+            </div>
+            <div class="contentBox">
+                <div class="imgBox">
+                    <img src="img/nature-header-3.jpg" alt="nature1" width="90%" height="auto">
+                </div>
+                <div class="contentBox-text">
+                    <h2>Sunset Landscape</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="about-wrapper" id="about">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vero eaque corrupti quisquam aspernatur
+            tempora nam aut molestias incidunt corporis. Esse ex deleniti a, laudantium, optio voluptatem aliquid labore
+            sapiente saepe natus aperiam nam iste incidunt fugit maxime? Mollitia corrupti.</p>
+    </div>
+    <div class="contact-wrapper" id="contact">
+        <div class="contact-section">
+            <div class="contactText">
+                <h1>Get Newsletter from us</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="contactBtn">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-wrapper">
+            <h3>NatureGallery</h3>
+            <em>All Right Reserved - 2022</em>
+        </div>
+    </footer>
 </body>
 
 </html>
